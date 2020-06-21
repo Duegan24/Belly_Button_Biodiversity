@@ -79,7 +79,6 @@ function buildMetadata(sample) {
         }
         var layout = { width: 400, height: 400 };
         Plotly.newPlot('gauge', [traceGauge], layout);
-        
     });
 }
 
